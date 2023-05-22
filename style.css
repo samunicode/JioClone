@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'JioType';
+    src: url('Jio_Clone/JioType-Bold.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'JioType-medium';
+    src: url('Jio_Clone/JioType-Medium.woff2') format('woff2');
+  }
+  
+  .hover\:animate-width:hover {
+    animation-name: expandWidth;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+  }
+  
+  .hover\:delay-1000:hover {
+    animation-delay: 1s;
+  }
+
+  .logos {
+    padding: 60px 0;
+    background: white;
+    position: relative;
+  }
+
+  .logos .splide__slide {
+    flex: 0 0 calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+
+  .logos .splide__slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+  .splide__track {
+    display: flex;
+    align-items: center;
+  }
+
+  

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio | Clone Project</title>
+    <link rel="shortcut icon" href="https://jep-asset.akamaized.net/jiostaticresources/v02/images/favicon.ico"
+        type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+        "></script>
+    <link href="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+        " rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav style="background-color:#0F3CC9; position:sticky" class="h-[80px] w-100vh">
+        <div class="flex mx-[130px] items-center space-x-[55px] pt-4">
+            <div>
+                <img src="https://jep-asset.akamaized.net/jiostaticresources/v02/images/favicon.ico">
+            </div>
+            <ul style="font-family: 'Poppins', sans-serif;"
+                class="flex space-x-[50px] font-semibold text-lg text-white">
+                <li>Mobile</li>
+                <li>True 5G</li>
+                <li>JioFiber</li>
+                <li>Business</li>
+                <li>Shops</li>
+                <li>Apps</li>
+                <li>Support</li>
+            </ul>
+            <div class="flex space-x-[30px] pt-1">
+                <div style="font-family: 'Poppins', sans-serif;"
+                    class="flex rounded-full bg-indigo-900 hover:bg-blue-950 pt-2 h-11 w-[350px] flex space-x-[20px] font-semibold text-lg text-white pl-3">
+                    <svg class="mb-1" style="width:28px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.004 2a7 7 0 015.6 11.19l6.11 6.1a1.002 1.002 0 01-.325 1.639 1 1 0 01-1.095-.219l-6.1-6.11A7 7 0 1110.004 2zm0 12a5 5 0 100-10 5 5 0 000 10z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <h1>Search</h1>
+                </div>
+                <svg class="rounded-full bg-white p-1" style="width: 35px; height:35px;" id="nonloggedin-content"
+                    viewBox="0 0 24 24" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 10a4 4 0 100-8 4 4 0 000 8zM12 22c4.418 0 8-2.462 8-5.5S16.418 11 12 11s-8 2.462-8 5.5S7.582 22 12 22z"
+                        fill="0F3CC9"></path>
+                </svg>
+            </div>
+
+        </div>
+    </nav>
+    <div class="splide h-[62vh] w-100vh">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div
+                        class="grid grid-cols-2 gap-2 carousel-item w-full h-full bg-[url('https://www.jio.com/cricket-bonanza-1b.webp')]">
+                        <div class="flex flex-col ml-[130px] my-[50px]">
+                            <h1 style="font-family: 'JioType', sans-serif;"
+                                class="font-extrabold text-7xl text-white tracking-tighter">Introducing Cricket Bonanza
+                                offers</h1>
+                            <br>
+                            <h3 style="font-family: 'JioType-medium', sans-serif; color:#D2CADA"
+                                class="pt-2 text-xl font-semibold">Watch uninterrupted cricket with Jio's 3GB/day data
+                                <br>plans
+                            </h3>
+                            <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                                class="text-white text-lg font-semibold py-3 px-4 rounded-full text-left mt-8 w-fit">Recharge
+                                Now</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div
+                        class="grid grid-cols-2 gap-2 carousel-item w-full h-full bg-[url('https://jep-asset.akamaized.net/jio/webp/homepage/dive-masthd-desk-v2.webp')]">
+                        <div class="flex flex-col ml-[130px] my-[50px]">
+                            <h1 style="font-family: 'JioType', sans-serif;"
+                                class="font-extrabold text-7xl text-white tracking-tighter">The thrill of stadium, The
+                                <br>feel of cinema!
+                            </h1>
+                            <br>
+                            <h3 style="font-family: 'JioType-medium', sans-serif; color:#D2CADA"
+                                class="pt-2 text-xl font-semibold">Watch TATA IPL, movies, and TV shows on JioCinema in
+                                360<br>VR.</h3>
+                            <div class="flex flex-row gap-3">
+                                <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                                    class="text-white text-lg font-semibold py-3 px-4 rounded-full text-left mt-8 w-fit">Discover</button>
+                                <button style="border:1px solid white; font-family: 'JioType-medium', sans-serif;"
+                                    class="text-white text-lg font-semibold py-3 px-4 rounded-full text-left mt-8 w-fit">Buy
+                                    JioDive now at ₹1,299</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div
+                        class="grid grid-cols-2 gap-2 carousel-item w-full h-full bg-[url('https://i.ibb.co/mCSmcTd/jioplus-masthead-desk-v2.png')]">
+                        <div class="flex flex-col ml-[130px] my-[50px]">
+                            <h1 style="font-family: 'JioType', sans-serif;"
+                                class="font-extrabold text-7xl text-white tracking-tighter">Postpaid just<br>got
+                                super<br>exciting</h1>
+                            <br>
+                            <h3 style="font-family: 'JioType-medium', sans-serif; color:#D2CADA"
+                                class="pt-2 text-xl font-semibold">Now you get to choose your new mobile number!</h3>
+                            <div class="flex flex-row gap-3">
+                                <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                                    class="text-white text-lg font-semibold py-3 px-4 rounded-full text-left mt-8 w-fit">Know
+                                    More</button>
+                                <button style="border:1px solid white; font-family: 'JioType-medium', sans-serif;"
+                                    class="text-white text-lg font-semibold py-3 px-4 rounded-full text-left mt-8 w-fit">Book
+                                    a Choice Number</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="h-[10vh] w-100vh">
+        <div class="mx-[700px] pt-[20px] w-10px h-full">
+            <div class="flex flex-row gap-3 justify-center pt-6">
+                <div style="background-color:#0F3CC9" class="w-6 h-2 rounded-full"></div>
+                <div style="background-color:#C3CEF1" class="w-[9px] h-[9px] rounded-full"></div>
+                <div style="background-color:#C3CEF1" class="w-2 h-2 rounded-full"></div>
+            </div>
+        </div>
+    </div>
+    <div class="h-[30vh] w-100vh">
+        <div class="flex flex-row gap-16 justify-center pt-6">
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="#0F3CC9">
+                    </path>
+                    <path
+                        d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Recharge</h3>
+            </div>
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16 7h4a2 2 0 00-.59-1.41l-3-3A2 2 0 0015 2v4a1 1 0 001 1zm-2.12 1.12A3 3 0 0113 6V2H6.5A2.49 2.49 0 004 4.5v15A2.49 2.49 0 006.5 22h11a2.49 2.49 0 002.5-2.5V9h-4a3 3 0 01-2.12-.88zM14 14a3 3 0 01-1.11 2.33l1.56.78A1 1 0 0114 19a.929.929 0 01-.45-.11l-4-2A1 1 0 0110 15h1a1 1 0 100-2H9a1 1 0 110-2h5a1 1 0 010 2h-.18a3 3 0 01.18 1z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Pay Bills</h3>
+            </div>
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16 2h-5a3 3 0 00-2.38 1.13l-3 3.7A3 3 0 005 8.7V19a3 3 0 003 3h8a3 3 0 003-3V5a3 3 0 00-3-3zM7 12h3v3H7v-3zm5 8H8a1 1 0 01-1-1v-2h5v3zm5-1a1 1 0 01-1 1h-2v-3h3v2zm0-4h-5v-3h5v3z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Get Jio Sim</h3>
+            </div>
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19 4h-4c-.94 0-1.84.45-2.4 1.2l-2 2.67c-.39.52-.6 1.15-.6 1.8V18c0 1.65 1.35 3 3 3h6c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3zm-7 7h2v3h-2v-3zm4 8h-3c-.55 0-1-.45-1-1v-2h4v3zm4-1c0 .55-.45 1-1 1h-1v-3h2v2zm0-4h-4v-3h4v3zM8 9.19c0-.06.01-.12.02-.19H8c-.94 0-1.84.45-2.4 1.2l-2 2.67c-.39.52-.6 1.15-.6 1.8V18c0 1.65 1.35 3 3 3h3.03C8.4 20.16 8 19.13 8 18V9.19zM9.71 4.3l-2-2A.996.996 0 106.3 3.71l.29.29H3c-.55 0-1 .45-1 1s.45 1 1 1h3.59l-.29.29a.996.996 0 00.71 1.7c.26 0 .51-.1.71-.29l2-2a.996.996 0 000-1.41l-.01.01z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Port to Jio</h3>
+            </div>
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.41 14.21a1 1 0 101.2 1.6 4 4 0 014.78 0 1 1 0 001.2-1.6 6 6 0 00-7.18 0zM12 17a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm9.34-8.41a13.94 13.94 0 00-18.68 0A1.002 1.002 0 004 10.08a11.93 11.93 0 0116 0 1 1 0 00.67.25 1 1 0 00.67-1.74zM12 9a10 10 0 00-6.49 2.4 1 1 0 001.3 1.52 8 8 0 0110.38 0 1 1 0 101.3-1.52A10 10 0 0012 9z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Get JioFiber</h3>
+            </div>
+            <div>
+                <svg style="background-color:#E7EBF8"
+                    class="w-20 rounded-full p-3 hover:w-30 hover:h-70 hover:rounded-lg delay-20 duration-100 ease-in-out"
+                    viewBox="0 0 25 25" fill="#0F3CC9" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19 4H5a3 3 0 00-3 3v8a3 3 0 003 3h3v1a2 2 0 003.2 1.6l3.47-2.6H19a3 3 0 003-3V7a3 3 0 00-3-3zm-7 12.5a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm1.32-4.62l-.33.24A1 1 0 0111 12a2.18 2.18 0 011.17-1.76c.56-.4.83-.61.83-1.24a1.17 1.17 0 00-1-1 1.17 1.17 0 00-1 1 1 1 0 01-2 0 3.16 3.16 0 013-3 3.16 3.16 0 013 3 3.31 3.31 0 01-1.68 2.88z"
+                        fill="#0F3CC9"></path>
+                </svg>
+                <h3 style="font-family: 'JioType', sans-serif; font-size:15px;" class="font-semibold pt-2 text-center">
+                    Support</h3>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#D9008D" class="h-[90vh] w-100vh">
+        <div class="flex flex-col my-[20px] pt-16">
+            <div class="flex flex-row justify-between">
+                <div>
+                    <img class="w-[60vh]"
+                        src="https://i.ibb.co/pdDwHkv/2023-05-21-22-58-28-Jio-Best-Prepaid-Postpaid-Plans-Wi-Fi-Connection-Mobile-Apps-and-10-more-pa.png">
+                </div>
+                <div class="flex flex-col">
+                    <img class="w-44 mx-auto"
+                        src="https://i.ibb.co/hCs1RCN/2023-05-21-23-04-01-Jio-Best-Prepaid-Postpaid-Plans-Wi-Fi-Connection-Mobile-Apps-and-11-more-pa.png">
+                    <h1 style="font-family: 'JioType', sans-serif;"
+                        class="font-extrabold text-7xl text-white tracking-tighter">Jio True 5G is live</h1>
+                </div>
+                <div>
+                    <img class="w-[60vh]"
+                        src="https://i.ibb.co/pdDwHkv/2023-05-21-22-58-28-Jio-Best-Prepaid-Postpaid-Plans-Wi-Fi-Connection-Mobile-Apps-and-10-more-pa.png">
+                </div>
+            </div>
+            <div class="flex flex-row justify-between mx-[210px] pt-16">
+                <div class="w-[600px] flex flex-col">
+                    <h1 style="font-family: 'JioType', sans-serif;" class="font-extrabold text-4xl text-white">Let's
+                        check the status of True 5G in your <br>city/towns</h1>
+                    <img class="w-80 pt-6"
+                        src="https://i.ibb.co/dMyG432/2023-05-21-23-48-04-Jio-Best-Prepaid-Postpaid-Plans-Wi-Fi-Connection-Mobile-Apps-and-12-more-pa.png">
+                </div>
+                <div class="w-[300px] grid grid-cols-1 place-content-center">
+                    <div class="mx-auto h-[100px] w-[2px] bg-white"></div>
+                </div>
+                <div class="w-[600px] flex flex-col">
+                    <div class="flex flex-row items-center gap-6">
+                        <div>
+                            <h1 style="font-family: 'JioType', sans-serif;"
+                                class="font-extrabold text-6xl text-white tracking-tighter">4,333</h1>
+                        </div>
+                        <div>
+                            <h1 style="font-family: 'JioType', sans-serif;" class="font-extrabold text-4xl text-white">
+                                Cities/Towns<br>
+                                <span style="color:#62003F">36 States/UT</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <h1 style="font-family: 'JioType', sans-serif;" class="font-extrabold text-2xl text-white pt-6">
+                        Agra, Mathura , Udaipur ,Dehmi Kalan, Bagru, Aligarh, and many more.</h1>
+                </div>
+            </div>
+            <div class="flex flex-col justify-between mx-[660px] pt-16">
+                <h3 class="text-center text-white font-bold text-sm">Can't wait to know more about True 5G? </h3>
+                <button id="explore_btn" class="mx-auto w-fit px-5 py-4 mt-6 rounded-full font-bold text-lg">Explore
+                    Now</button>
+            </div>
+            <style>
+                #explore_btn {
+                    background-color: #FF99DB;
+                    color: #62003F;
+
+                }
+
+                #explore_btn:hover {
+                    background-color: white;
+                }
+            </style>
+        </div>
+    </div>
+    <div class="h-[115vh] w-100vh">
+        <div class="flex flex-col mx-[130px]">
+            <div>
+                <h1 class="text-center pt-16 font-extrabold text-7xl">Discover new possibilities</h1>
+                <h3 style="color:#595959" class="text-center pt-6 font-semibold text-xl">Planning a digital
+                    transformation for home, business, or personal experiences? You're just a step away.</h3>
+            </div>
+            <div class="flex flex-row pt-16 gap-12">
+                <div class="w-[420px] flex flex-col justify-center items-center">
+                    <img class="w-48 mx-auto" src="https://www.jio.com/mobile-17-05-2023.png" alt="">
+                    <h1 class="text-center pt-4 font-extrabold text-5xl tracking-tighter">For you
+                    </h1>
+                    <h3 style="color:#595959" class="text-center pt-4 font-semibold text-lg">Enjoy mobile connectivity
+                        with unlimited data, voice calls, SMS, and much more.</h3>
+                    <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                        class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">Explore
+                        Mobile</button>
+                </div>
+                <div class="w-[420px] flex flex-col justify-center items-center">
+                    <img class="w-48 mx-auto" src="https://www.jio.com/fiber-17-05-2023.png" alt="">
+                    <h1 class="text-center pt-4 font-extrabold text-5xl tracking-tighter">For your home
+                    </h1>
+                    <h3 style="color:#595959" class="text-center pt-4 font-semibold text-lg">Power up multiple devices
+                        with superfast internet for a connected living experience.</h3>
+                    <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                        class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">Explore
+                        JioFibre</button>
+                </div>
+                <div class="w-[420px] flex flex-col justify-center items-center">
+                    <img class="w-48 mx-auto" src="https://www.jio.com/bix-17-05-2023.png" alt="">
+                    <h1 class="text-center pt-4 font-extrabold text-5xl tracking-tighter">For your business
+                    </h1>
+                    <h3 style="color:#595959" class="text-center pt-4 font-semibold text-lg">Explore digital solutions
+                        to optimise processes for enhanced productivity.</h3>
+                    <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                        class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">Explore
+                        JioBusiness</button>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-center pt-16 font-extrabold text-7xl">Enrich your digital life</h1>
+                <h3 style="color:#595959" class="text-center pt-6 font-semibold text-xl">Stream, shop, connect, and do
+                    much more on the go with Jio apps and services.</h3>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#D9008D" class="h-[75vh] w-100vh">
+        <div class="flex flex-row justify-between">
+            <div class="w-[40vh] flex flex-col mx-28 my-36">
+                <img class="w-48 mx-50"
+                    src="https://i.ibb.co/5s6VHNB/2023-05-22-06-36-33-Jio-Best-Prepaid-Postpaid-Plans-Wi-Fi-Connection-Mobile-Apps-and-9-more-pag.png">
+                <h1 class="text-left pt-3 font-extrabold text-5xl text-white">Catch all the cricketing T20 action</h1>
+                <button id="explore_btn" class="w-fit px-5 py-3 mt-6 rounded-full font-bold text-lg">Watch
+                    Now</button>
+            </div>
+            <div>
+                <video class="h-full w-[133vh]"
+                    src="https://jep-asset.akamaized.net/jio/welcome-page/tata-ipl-29-03-2023.mp4" autoplay="{true}"
+                    loop controls="{true}"></video>
+            </div>
+        </div>
+    </div>
+    <div class="logos pt-4">
+        <div id="infinite-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="Jio_Clone/img/1.png" alt="3M Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/2.png" alt="Barstool Store Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/3.png" alt="Budweiser Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/4.png" alt="Buzzfeed Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/5.png" alt="Forbes Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/6.png" alt="Macy's Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/7.png" alt="Men's Health Logo"></li>
+                    <li class="splide__slide"><img src="Jio_Clone/img/8.png" alt="MrBeast Logo"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="h-[12vh]">
+        <button style="border:1px solid rgb(205, 203, 203); font-family: 'JioType-medium', sans-serif;"
+            class="mx-[710px] text-blue-900 text-lg font-semibold py-3 px-4 rounded-full mt-5 w-fit">
+            View all apps</button>
+    </div>
+    <div class="h-[75vh] w-100vh">
+        <div class="flex flex-col mx-[130px]">
+            <div>
+                <h1 class="text-center pt-16 font-extrabold text-7xl">In the spotlight</h1>
+                <h3 style="color:#595959" class="text-center pt-6 font-semibold text-xl">The best deals, news, and
+                    products.</h3>
+            </div>
+            <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea;"
+                class="flex flex-row mt-8 mb-8 mx-5 h-[65vh] justify-between">
+                <div class="w-[70vh] flex flex-col mx-[60px] my-[100px]">
+                    <h1 class="text-left pt-4 font-extrabold text-5xl tracking-tighter">Jio VIP Box, only for cricket
+                        fans
+                    </h1>
+                    <h3 style="color:#595959" class="text-left pt-4 font-semibold text-lg">Now enjoy AR selfies with
+                        cricketers, personalised <br>messages from your favourite team, fun rewards, and more.</h3>
+                    <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                        class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">Start
+                        Exploring</button>
+                </div>
+                <div>
+                    <img class="w-[90.5vh]" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;"
+                        src="https://jep-asset.akamaized.net/jio/webp/homepage/scanner-code-15-05-2023.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-[75vh] mt-60 mx-[145px] flex flex-row gap-4">
+        <div class="w-1/3 bg-cover bg-no-repeat"
+            style="border-radius:25px; background-position: center;background-image: url('assets/bx-a.png');">
+            <div class="p-4 h-full overflow-auto">
+                <h1 style="font-family: 'JioType', sans-serif;"
+                    class="font-extrabold text-4xl text-white mx-[10px] mt-[320px]">Get a discount of up
+                    to 80% on all things
+                    summery</h1>
+                <button style="background-color:#89DCFF; color:#003d57"
+                    class="w-fit px-5 py-1 ml-[10px] mt-[58px] rounded-full font-bold text-lg">Shop at Ajio</button>
+            </div>
+        </div>
+        <div class="w-1/3 bg-cover bg-no-repeat"
+            style="border-radius:25px;background-position: center;background-image: url('assets/bx-b.png');">
+            <div class="p-4 h-full overflow-auto">
+                <h1 style="font-family: 'JioType', sans-serif;"
+                    class="font-extrabold text-4xl text-white mx-[10px] mt-[320px]">Get a discount of up
+                    to 80% on all things
+                    summery</h1>
+                <button style="background-color:#89DCFF; color:#003d57"
+                    class="w-fit px-5 py-1 ml-[10px] mt-[58px] rounded-full font-bold text-lg">Shop at Hamleys</button>
+            </div>
+        </div>
+        <div class="w-1/3 bg-cover bg-no-repeat"
+            style="border-radius:25px;background-position: center;background-image: url('assets/bx-c.png');">
+            <div class="p-4 h-full overflow-auto">
+                <h1 style="font-family: 'JioType', sans-serif;"
+                    class="font-extrabold text-4xl text-white mx-[10px] mt-[320px]">Check, there's a
+                    furniture sale at
+                    Urban Ladder</h1>
+                <button style="background-color:#89DCFF; color:#003d57"
+                    class="w-fit px-5 py-1 ml-[10px] mt-[58px] rounded-full font-bold text-lg">Start Shopping</button>
+            </div>
+        </div>
+    </div>
+    <div class="h-[75vh] w-100vh">
+        <div class="flex flex-col mx-[130px]">
+            <div>
+                <h1 class="text-center pt-16 font-extrabold text-7xl">Latest and trending <br>devices</h1>
+                <h3 style="color:#595959" class="text-center pt-6 font-semibold text-xl">Get the best deals on all the
+                    latest devices on your wish list.</h3>
+            </div>
+            <div class="h-[52vh] mt-16 mb-16 flex flex-row gap-4">
+                <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea;"
+                    class="w-1/3 hover:scale-[1.02] hover:duration-300" style="border-radius:25px;">
+                    <div class="p-1 h-full overflow-auto">
+                        <img class="p-4 w-full h-full" src="assets/bx1.png">
+                    </div>
+                </div>
+                <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea;"
+                    class="w-1/3 hover:scale-[1.02] hover:duration-300" style="border-radius:25px;">
+                    <div class="p-1 h-full overflow-auto">
+                        <img class="p-4 w-full h-full" src="assets/bx2.png">
+                    </div>
+                </div>
+                <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea;"
+                    class="w-1/3 hover:scale-[1.02] hover:duration-300" style="border-radius:25px;">
+                    <div class="p-1 h-full overflow-auto">
+                        <img class="p-4 w-full h-full" src="assets/bx3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-[12vh]  mt-40">
+        <button style="border:1px solid rgb(205, 203, 203); font-family: 'JioType-medium', sans-serif;"
+            class="mx-[700px] text-blue-900 text-lg font-semibold py-3 px-4 rounded-full mt-5 w-fit">
+            View all products</button>
+    </div>
+    <div class="h-[75vh] w-100vh">
+        <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea; background-position: center;background-image: url('assets/jiotower.png' );"
+         class="flex flex-row mx-[130px] mt-8 mb-8 mx-5 h-[65vh] justify-between bg-cover bg-no-repeat">
+            <div class="w-[70vh] flex flex-col mx-[60px] my-[100px]">
+                <h1 class="text-left pt-4 font-extrabold text-7xl text-white">Work, learn and
+                    grow
+                </h1>
+                <h3 style="color:#e0e0e0" class="text-left pt-4 font-semibold text-2xl">Build an eventful career.</h3>
+                <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                    class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">View Job Openings</button>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#f2f2f2">
+        <div class="h-[73vh] w-100vh">
+            <div class="flex flex-col mx-[130px]">
+                <div>
+                    <h1 class="text-center pt-16 font-extrabold text-7xl">Making a difference</h1>
+                    <h3 style="color:#595959" class="text-center pt-6 font-semibold text-xl">Here is a handful of the many success stories.</h3>
+                </div>
+                <div class="h-[56vh] mt-16 mb-16 flex flex-row gap-4">
+                    <div style="border-radius:20px; box-shadow: 0px 0px 25px #dbdbdb;"
+                        class="w-1/3 hover:scale-[1.02] hover:duration-300 bg-white" style="border-radius:25px;">
+                        <img class="w-full" style="border-top-right-radius:20px; border-top-left-radius:20px;" src="https://www.jio.com/5g-odisha-card.png">
+                        <h1 class="mt-5 mx-5 text-xl font-bold">True 5G now in Odisha</h1>
+                        <h3 style="color:#595959" class="mt-2 mx-5 text-lg font-semibold">The state of Odisha begins its 5G journey with
+                            Jio.</h3>
+                        <h3 class="rounded-full hover:bg-blue-100 px-4 py-1 mt-5 w-fit ml-3 text-lg font-bold text-blue-900">Details inside</h3>
+                    </div>
+                    <div style="border-radius:20px; box-shadow: 0px 0px 25px #dbdbdb;"
+                        class="w-1/3 hover:scale-[1.02] hover:duration-300 bg-white" style="border-radius:25px;">
+                        <img class="w-full" style="border-top-right-radius:20px; border-top-left-radius:20px;" src="https://www.jio.com/kochi-guruvayur-card.jpg">
+                        <h1 class="mt-5 mx-5 text-xl font-bold">Launching True 5G in Kerala</h1>
+                        <h3 style="color:#595959" class="mt-2 mx-5 text-lg font-semibold">Kochi and Guruvayur experiences True 5G
+                            speed.</h3>
+                        <h3 class="rounded-full hover:bg-blue-100 px-4 py-1 mt-5 w-fit ml-3 text-lg font-bold text-blue-900">Know more</h3>
+                    </div>
+                    <div style="border-radius:20px; box-shadow: 0px 0px 25px #dbdbdb;"
+                        class="w-1/3 hover:scale-[1.02] hover:duration-300 bg-white" style="border-radius:25px;">
+                        <img class="w-full" style="border-top-right-radius:20px; border-top-left-radius:20px;" src="https://www.jio.com/madhya-pradesh-card.png">
+                        <h1 class="mt-5 mx-5 text-xl font-bold">Madhya Pradesh welcomes 5G</h1>
+                        <h3 style="color:#595959" class="mt-2 mx-5 text-lg font-semibold">True 5G now in Mahakaleshwar Temple and
+                            Mahakal Lok.</h3>
+                        <h3 class="rounded-full hover:bg-blue-100 px-4 py-1 mt-5 w-fit ml-3 text-lg font-bold text-blue-900">Know more</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-[20vh]  mt-32" style="background-color:#f2f2f2">
+            <button style="border:1px solid rgb(205, 203, 203); font-family: 'JioType-medium', sans-serif;"
+                class="mx-[740px] text-blue-900 text-lg font-semibold py-3 px-4 rounded-full mt-10 w-fit">
+                View all</button>
+        </div>
+    </div>
+    <div class="mt-20">
+        <div class="h-[80vh] w-100vh">
+            <div style="border-radius:20px; box-shadow: 0px 0px 20px #eceaea; background-position: center;background-image: url('assets/jiodesk.png' );"
+             class="flex flex-row mx-[130px] mt-8 mb-8 mx-5 h-[70vh] justify-between bg-cover bg-no-repeat">
+                <div class="w-[70vh] flex flex-col mx-[60px] my-[100px]">
+                    <h1 class="text-left pt-4 font-extrabold text-7xl text-white">Grow your business faster than ever
+                    </h1>
+                    <h3 style="color:#e0e0e0" class="text-left pt-4 font-semibold text-2xl">Future-ready business solutions.</h3>
+                    <button style="background-color:#0F3CC9; font-family: 'JioType-medium', sans-serif;"
+                        class="text-white text-lg font-semibold py-3 px-4 rounded-full mt-6 w-fit">Explore JioBusiness</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-[80vh] w-100vh" style="background-color:#E8E8FC">
+
+    </div>
+</body>
+
+</html>
