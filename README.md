@@ -3,7 +3,7 @@ https://github.com/samunicode/JioClone/assets/91241984/1b98f5ee-e33e-4368-88b8-3
 
 # Jio Clone (**Archived)
 
-This project is a _Learning (*Not Responsive*)_ project developed as a clone of the Jio's website. The purpose of this project was to enhance my skills in using Tailwind CSS, HTML, and CSS to create a website that is both visually appealing and responsive across different devices.
+This project is a _**Learning (*Not Responsive*)**_ project developed as a clone of the Jio's website. The purpose of this project was to enhance my skills in using Tailwind CSS, HTML, and CSS to create a website that is both visually appealing and responsive across different devices.
 
 Tailwind CSS is a utility-first CSS framework that allows for rapid development by providing a set of pre-defined classes that can be easily applied to elements. It eliminates the need for writing custom CSS by offering a wide range of responsive utilities, such as spacing, colors, typography, and layout components. By utilizing Tailwind CSS in this project, I aimed to understand and leverage the power of this framework to create an accurate clone of the Hostinger's website.
 
