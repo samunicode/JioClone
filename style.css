@@ -1,3 +1,7 @@
+html {
+  zoom: 0.9;
+}
+
 @font-face {
     font-family: 'JioType';
     src: url('Jio_Clone/JioType-Bold.woff2') format('woff2');

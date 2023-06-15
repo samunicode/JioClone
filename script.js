@@ -1,3 +1,10 @@
+window.addEventListener('resize', function () {
+  if (document.documentElement.style.zoom !== '0.9') {
+    document.documentElement.style.zoom = '0.9';
+  }
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
     new Splide(".splide", {
       type: "loop",
@@ -21,5 +28,3 @@ document.addEventListener("DOMContentLoaded", function () {
       pagination: false,
     }).mount();
   });
-
-  
